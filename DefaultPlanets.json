@@ -1,0 +1,66 @@
+[
+	{
+		"Name": "Mercury",
+		"Distance": 0.4,
+		"Diameter": 4879,
+		"ApparentSize": 2,
+		"ColorString": "LightYellow",
+		"Angle":  258
+	},
+	{
+		"Name": "Venus",
+		"Distance": 0.7,
+		"Diameter": 12104,
+		"ApparentSize": 6,
+		"ColorString": "Orange",
+		"Angle": 90
+	},
+	{
+		"Name": "Earth",
+		"Distance": 1,
+		"Diameter": 12742,
+		"ApparentSize": 6,
+		"ColorString": "Green",
+		"Angle": 45
+	},
+	{
+		"Name": "Mars",
+		"Distance": 1.5,
+		"Diameter": 6779,
+		"ApparentSize": 3,
+		"ColorString": "Red",
+		"Angle": 70
+	},
+	{
+		"Name": "Jupiter",
+		"Distance": 5.2,
+		"Diameter": 139820,
+		"ApparentSize": 16,
+		"ColorString": "LightGoldenrodYellow",
+		"Angle": 308
+	},
+	{
+		"Name": "Saturn",
+		"Distance": 9.6,
+		"Diameter": 116460,
+		"ApparentSize": 14,
+		"ColorString": "LightYellow",
+		"Angle": 247
+	},
+	{
+		"Name": "Uranus",
+		"Distance": 19.8,
+		"Diameter": 50724,
+		"ApparentSize": 10,
+		"ColorString": "LightBlue",
+		"Angle": 17
+	},
+	{
+		"Name": "Neptune",
+		"Distance": 30,
+		"Diameter": 49244,
+		"ApparentSize": 9,
+		"ColorString": "Blue",
+		"Angle": 160
+	}
+]
