@@ -5,7 +5,7 @@
 		"Diameter": 4879,
 		"ApparentSize": 0.108713,
 		"ColorString": "LightGray",
-		"Angle": 258,
+		"ReferenceAngle": 142.55503,
 		"OrbitalPeriod": 2111.28
 	},
 	{
@@ -14,7 +14,7 @@
 		"Diameter": 12104,
 		"ApparentSize": 0.269700,
 		"ColorString": "Orange",
-		"Angle": 90,
+		"ReferenceAngle": 102.90164,
 		"OrbitalPeriod": 5392.8
 	},
 	{
@@ -23,7 +23,7 @@
 		"Diameter": 12742,
 		"ApparentSize": 0.28392,
 		"ColorString": "Green",
-		"Angle": 45,
+		"ReferenceAngle": 0,
 		"OrbitalPeriod": 8766.24
 	},
 	{
@@ -32,7 +32,7 @@
 		"Diameter": 6779,
 		"ApparentSize": 0.151049,
 		"ColorString": "Red",
-		"Angle": 70,
+		"ReferenceAngle": 31.84406,
 		"OrbitalPeriod": 16480.53
 	},
 	{
@@ -41,7 +41,7 @@
 		"Diameter": 139820,
 		"ApparentSize": 3.115463,
 		"ColorString": "Brown",
-		"Angle": 308,
+		"ReferenceAngle": 51.33325,
 		"OrbitalPeriod": 103967.61
 	},
 	{
@@ -50,7 +50,7 @@
 		"Diameter": 116460,
 		"ApparentSize": 2.594957,
 		"ColorString": "LightCoral",
-		"Angle": 247,
+		"ReferenceAngle": 71.43550,
 		"OrbitalPeriod": 258253.43
 	},
 	{
@@ -59,7 +59,7 @@
 		"Diameter": 50724,
 		"ApparentSize": 1.130230,
 		"ColorString": "Teal",
-		"Angle": 17,
+		"ReferenceAngle": 132.18344,
 		"OrbitalPeriod": 736451.82
 	},
 	{
@@ -68,7 +68,7 @@
 		"Diameter": 49244,
 		"ApparentSize": 1.097499,
 		"ColorString": "Blue",
-		"Angle": 160,
+		"ReferenceAngle": 160.56647,
 		"OrbitalPeriod": 1444588.69
 	}
 ]

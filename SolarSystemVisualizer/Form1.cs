@@ -24,7 +24,7 @@ namespace SolarSystemVisualizer
 		GFX engine;
 		new private float Scale = 16.0F;
 		private const float ScaleDelta = 0.4F;
-		private const float MaxScale = 100.0F;
+		private const float MaxScale = 200.0F;
 		private const float MinScale = 10.0F;
 
 		private Point Center;
@@ -66,11 +66,11 @@ namespace SolarSystemVisualizer
 				if(Scale == MaxScale) return;
 
 				if(Scale + ScaleDelta < MaxScale)
-					Scale += ScaleDelta * (Scale / 8);
+					Scale += ScaleDelta * (Scale / (ModifierKeys == Keys.Shift ? 2 : 16));
 			}
 
 			DrawPlanets();
-
+			Console.WriteLine(ModifierKeys == Keys.Shift);
 			Console.WriteLine("Current Scale: " + Scale);
 		}
 
@@ -84,6 +84,8 @@ namespace SolarSystemVisualizer
 
 		private void ReadDefaultPlanets ()
 		{
+			DateTime now = DateTime.UtcNow;
+
 			Planet[] planets = new Planet[7];
 			planets = JsonConvert.DeserializeObject<Planet[]>(File.ReadAllText("DefaultPlanets.json"));
 
@@ -91,7 +93,7 @@ namespace SolarSystemVisualizer
 			foreach (Planet p in planets)
 			{
 				Planet.Planets.Add(p);
-				p.Format();
+				p.Format(now);
 				p.PrintInfo();
 			}
 		}
